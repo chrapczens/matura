@@ -117,9 +117,9 @@ int main()
 	int s2[L][2];
 	int s3[L][2];
 
-	czytanie(s1, "data/dane_systemy1.txt", 2);
-	czytanie(s2, "data/dane_systemy2.txt", 4);
-	czytanie(s3, "data/dane_systemy3.txt", 8);
+	czytanie(s1, "./../data/58/dane_systemy1.txt", 2);
+	czytanie(s2, "./../data/58/dane_systemy1.txt", 4);
+	czytanie(s3, "./../data/58/dane_systemy1.txt", 8);
 
 	cout << "min. dla s1: " << konwersja_bin(szukanie_min(s1)) << endl;
 	cout << "min. dla s2: " << konwersja_bin(szukanie_min(s2)) << endl;
