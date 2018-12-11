@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "58.1"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cmath": "cpp"
+		}
+	}
+}
