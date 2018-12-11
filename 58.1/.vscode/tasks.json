@@ -6,14 +6,23 @@
 		{
 			"label": "build",
 			"type": "shell",
-			"command": "g++",
-			"args":[
-				"-g", "main.cpp", "-o", "${workspaceFolder}/bin/debug/program.exe"
+			"command": "mingw32-make",
+			"args": [
+				"main_debug"
 			],
 			"group": {
 				"kind": "build",
 				"isDefault": true
-			}
+			},
+			"dependsOn": "clean"
+		},
+		{
+			"label": "clean",
+			"type": "shell",
+			"command": "mingw32-make",
+			"args": [
+				"clean"	
+			]
 		}
 	]
 }
